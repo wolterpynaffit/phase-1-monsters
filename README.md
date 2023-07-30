@@ -36,12 +36,13 @@ $ json-server monsters.json
 
 ## Deliverables
 
-- When the page loads, show the first 50 monsters. Each monster's name, age, and
-  description should be shown.
-- Above your list of monsters, you should have a form to create a new monster.
+<!-- - When the page loads, show the first 50 monsters. Each monster's name, age, and
+  description should be shown. -->
+<!-- - Above your list of monsters, you should have a form to create a new monster.
   You should have fields for name, age, and description, and a 'Create Monster
   Button'. When you click the button, the monster should be added to the list
-  and saved in the API.
+  and saved in the API. -->
+
 - At the end of the list of monsters, show a button. When clicked, the button
   should load the next 50 monsters and show them.
 
@@ -57,7 +58,7 @@ optional parameters:
 _limit=[number] - limit the number of monsters returned
 _page=[number] - offset your request for monsters to some page (must specify a limit)
 
-example:
+exampl
 
 GET http://localhost:3000/monsters/?_limit=20&_page=3
 
